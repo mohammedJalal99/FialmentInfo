@@ -1,0 +1,54 @@
+{
+    "name": "mohammed_hamad/filament-info",
+    "description": "Info About AwaTechCompany",
+    "keywords": [
+        "framework",
+        "laravel",
+        "filament"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MohammedHamad\\FilamentInfo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MohammedHamad\\FilamentInfo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MohammedHamad\\FilamentInfo\\FilamentInfoServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Hamad",
+            "email": "hamaj4096@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^v3.2",
+        "spatie/laravel-package-tools": "^1.16",
+        "owenvoke/blade-fontawesome": "*"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "spatie/laravel-ray": "^1.26"
+    }
+}
