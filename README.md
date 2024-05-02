@@ -4,7 +4,7 @@ This Plugin Use to Add and Info About Your Project
 ## Installation
 ```bash
 composer require mohammed_hamad/filament-info 
-```
+``` 
 
 ### Configure
 ```bash
