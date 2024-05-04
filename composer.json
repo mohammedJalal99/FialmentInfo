@@ -31,7 +31,7 @@
             "email": "hamaj4096@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
